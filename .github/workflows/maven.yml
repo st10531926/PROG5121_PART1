@@ -20,5 +20,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Build and Run Automated Tests
+        - name: Build and Run Automated Tests
       run: mvn clean test
+      working-directory: ./LoginProject
+
